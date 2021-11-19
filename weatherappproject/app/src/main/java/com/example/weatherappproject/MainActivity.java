@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         String tempname_s = getIntent().getStringExtra("temperature_kind");
         city_name1.setText(cityname_s);
         String url = String.format("https://api.openweathermap.org/data/2.5/weather?q=%s&appid=3097ed2aabbb5786b54513b7c67b2540", cityname_s);
+        // %s will be replaced by the cityname_s
         Runnable r = new Runnable() {
             @Override
             public void run() {

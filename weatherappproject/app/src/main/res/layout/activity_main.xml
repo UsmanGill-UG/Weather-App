@@ -17,7 +17,8 @@
         app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/City_textview"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"/>
 
     <TextView
         android:id="@+id/humidity_tv"
@@ -28,7 +29,8 @@
         app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pressure_tv"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"/>
 
     <TextView
         android:id="@+id/wind_tv"
@@ -39,7 +41,8 @@
         app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/humidity_tv"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"/>
 
     <TextView
         android:id="@+id/pressure_tv"
@@ -50,7 +53,8 @@
         app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/maxtemp"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"/>
 
     <TextView
         android:id="@+id/mintemp"
@@ -61,7 +65,8 @@
         app:layout_constraintHorizontal_bias="0.469"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"/>
 
     <TextView
         android:id="@+id/maxtemp"
@@ -72,7 +77,8 @@
         app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mintemp"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"/>
 
     <TextView
         android:id="@+id/wind_deg_tv"
@@ -83,7 +89,8 @@
         app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/wind_tv"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"/>
 
     <TextView
         android:id="@+id/City_textview"
@@ -97,7 +104,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"/>
 
     <TextView
         android:id="@+id/coord_tv"
@@ -107,7 +115,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cloud_tv"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"/>
 
     <TextView
         android:id="@+id/cloud_tv"
@@ -118,6 +127,7 @@
         app:layout_constraintHorizontal_bias="0.451"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/wind_deg_tv"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
