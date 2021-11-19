@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:visibility="visible"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity2"
+    android:background="@drawable/roaddark1">
 
     <EditText
         android:id="@+id/city_text"
@@ -19,7 +20,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"/>
 
     <Button
         android:id="@+id/button_ok1"
@@ -44,12 +47,14 @@
             android:id="@+id/Fahrenheit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Fahrenheit" />
+            android:text="Fahrenheit"
+            android:textColor="#FFFFFF"/>
 
         <RadioButton
             android:id="@+id/Celcius"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Celcius" />
+            android:text="Celcius"
+            android:textColor="#FFFFFF"/>
     </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>
