@@ -72,6 +72,9 @@ public class MainActivity extends AppCompatActivity {
                             max_data = max_data - 273;
                             break;
                         case "fahrenheit":
+                            data = (9*(data-273)/5)+32;
+                            min_data = (9*(min_data-273)/5)+32;
+                            max_data = (9*(max_data-273)/5)+32;
                             break;
                         default:
                             break;
